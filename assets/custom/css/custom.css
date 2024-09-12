@@ -3586,9 +3586,13 @@ header h2 {
     row-gap: 30px;
     flex-direction: row-reverse;
     justify-content: center;
+}
+
+.quiz-container {
     position: relative;
     transform: translateY(-50%);
     top: 40%;
+    padding: 0px 20px;
 }
 
 .quiz-content .title {
