@@ -29,8 +29,8 @@ const startStep = {
                 </div>
                 <div class="col-lg-6 col-md-6 col-lg-6">
                     <h2 class="title">Trading-Ausbildung auf Ihrem Handy</h2>
-                    <h2 class="title">Team "Trader Bo"t: 45 Minuten kostenlose Beratung</h2>
-                    <h3>30-minütige Beratung durch einen Buchhalter</h3>
+                    <h4 class="sub-title">Team "Trader Bo"t: 45 Minuten kostenlose Beratung</h4>
+                    <h5>30-minütige Beratung durch einen Buchhalter</h5>
                     <button class="btn btn-primary w-100 py-3 first-button" data-action="startQuiz">Beginnen</button>
                 </div>
             </div>

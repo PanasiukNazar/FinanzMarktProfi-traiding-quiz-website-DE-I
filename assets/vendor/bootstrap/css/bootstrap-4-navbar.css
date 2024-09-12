@@ -46,7 +46,7 @@
     padding: 10px 15px !important;
 }
 .fables-nav .nav-link:hover {
-    color: #e667af;
+    color: #408ec6;
 }
 /*submenu style start from here*/
 
@@ -63,7 +63,7 @@
 /*first level*/
 .btco-hover-menu .collapse ul > li:hover > a {
     background: transparent;
-    color: #e667af;
+    color: #408ec6;
 }
 
 /*second level*/
