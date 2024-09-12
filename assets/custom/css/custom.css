@@ -3721,3 +3721,9 @@ header h2 {
         display: none;
     }
 }
+
+#checkbox {
+    display: flex;
+    align-items: baseline;
+    column-gap: 20px;
+}

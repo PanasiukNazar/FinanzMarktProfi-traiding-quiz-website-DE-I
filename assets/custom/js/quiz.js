@@ -137,6 +137,10 @@ const finalStep = {
                         <input class="form-control" name="Surname" type="name" placeholder="Nachname" required>
                         <input class="form-control" name="email" type="email" placeholder="E-Mail" required>
                         <input class="form-control" name="phone" type="phone" placeholder="Telefon" required>
+                        <div id="checkbox">
+                            <input type="checkbox">
+                            <label>Verarbeitung persönlicher Daten</label>
+                        </div>
 
                         
                         ${Object.keys(quiz.answers)
@@ -159,6 +163,7 @@ const finalStep = {
             localStorage.setItem('quizDone', true);
             document.getElementById('main-page').classList.remove('hide');
             document.getElementById('quiz-page').classList.add('hide');
+            document.getElementById('footer').classList.add('hide');
             window.location.href = newPath;
         }
     },
