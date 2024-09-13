@@ -23,11 +23,8 @@ const startStep = {
     render: () => {
         $container.innerHTML = `
         <div class="container quiz-wrapper">
-            <div class="row quiz-content">
-                <div class="col-lg-6 col-md-6 col-lg-6">
-                    <img class="quiz-img" src="assets/custom/images/quiz.jpg">
-                </div>
-                <div class="col-lg-6 col-md-6 col-lg-6">
+            <div class="quiz-content">
+                <div class="content">
                     <h2 class="title">Trading-Ausbildung auf Ihrem Handy</h2>
                     <h4 class="sub-title">Team "Trader Bo"t: 45 Minuten kostenlose Beratung</h4>
                     <h5>30-minütige Beratung durch einen Buchhalter</h5>
@@ -53,7 +50,7 @@ const questionsStep = {
         $container.innerHTML = `
         <div class="container quiz-wrapper">
 
-            <div class="row quiz-content text-center">
+            <div class="quiz-content text-center quiz-start">
                 <div class="question-wrapper">
                     <div class="row justify-content-center mt-4" style="width: 100%;">
                         <div class="progress col-md-6" style="padding-left: 0 !important; padding-right: 0 !important;">
@@ -69,7 +66,7 @@ const questionsStep = {
                         .map(
                             (answer, index) =>
                                 `
-                                <button class="answer col-md-10 border rounded" data-action="selectAnswer" data-answer-index="${index}">
+                                <button class="answer border rounded" data-action="selectAnswer" data-answer-index="${index}">
                                     ${answer}
                                 </button>
                             `,
