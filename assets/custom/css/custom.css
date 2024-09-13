@@ -3567,8 +3567,8 @@ header h2 {
 /* QUIZ STYLES */
 
 #quiz-page {
-    margin: 150px 0px 300px 0px;
-    height: 600px;
+    margin: 100px 0px 100px 0px;
+    height: 750px;
 }
 
 .quiz-content {
@@ -3586,6 +3586,8 @@ header h2 {
     background-position: center, right bottom;
     background-repeat: no-repeat, no-repeat;
     height: 100%;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px 5px lightgray;
 }
 
 .quiz-container {
