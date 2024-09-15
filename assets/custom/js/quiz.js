@@ -53,7 +53,7 @@ const questionsStep = {
             <div class="quiz-content text-center quiz-start">
                 <div class="question-wrapper">
                     <div class="" style="width: 100%; padding-left: 20px; padding-right: 20px">
-                        <div class="progress col-md-6" style="padding-left: 0 !important; padding-right: 0 !important;">
+                        <div class="progress" style="padding-left: 0 !important; padding-right: 0 !important;">
                             <div class="progress-bar" style="width: ${questionsStep.getProgress()}%"></div>
                         </div>
                     </div>

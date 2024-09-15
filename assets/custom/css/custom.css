@@ -3607,6 +3607,17 @@ header h2 {
     padding-left: 30px;
     padding-right: 30px;
 }
+@media (max-width: 772px) {
+    .content {
+        width: 100% !important;
+    }
+    .content .title {
+        font-size: 25px;
+    }
+    .content h3 {
+        font-size: 20px;
+    }
+}
 
 .quiz-wrapper {
     height: 100%;
