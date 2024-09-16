@@ -3582,7 +3582,7 @@ header h2 {
             rgba(210, 215, 219, 0.6),
             rgba(192, 197, 202, 0.6)
         ),
-        url('/assets/custom/images/quiz.jpg');
+        url('assets/custom/images/quiz.jpg');
     background-position: center, right bottom;
     background-repeat: no-repeat, no-repeat;
     height: 100%;
