@@ -3598,6 +3598,12 @@ header h2 {
     height: 100%;
 }
 
+@media (max-width: 540px) {
+    .answers {
+        flex-direction: column;
+    }
+}
+
 .content {
     text-align: left;
     width: 50%;
